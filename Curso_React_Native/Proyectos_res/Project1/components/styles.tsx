@@ -8,7 +8,8 @@ const navStyles = StyleSheet.create({
     justifyContent:'center',
     borderBottomWidth:1,
     borderColor:'cyan',
-    padding:10
+    padding:10,
+    backgroundColor:'#28242c',
 
   },
   image:{
@@ -19,16 +20,24 @@ const navStyles = StyleSheet.create({
 
 const projectStyles = StyleSheet.create({
   container:{
+    backgroundColor:'#262f34',
+    padding:10,
+    height:'100%',
+  },
+  containerList:{
     marginLeft:30,
+    marginBottom:30,
+    color:'white',
+    flexGrow:0
   },
   h1:{
-    color:'black',
+    color:'white',
     fontSize: 45,
     fontWeight:'bold'
   },
   h3:{
-    color:'black',
-    fontSize: 20,
+    color:'white',
+    fontSize: 25,
   }
 })
 
