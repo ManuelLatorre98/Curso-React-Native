@@ -1,15 +1,8 @@
-// eslint-disable-next-line prettier/prettier
-import { FlatList, Image, Text, View } from "react-native";
-import { Nav } from "./Nav";
-import { navStyles, projectStyles } from "./styles";
-import { Body } from "./Body";
-
+import { View } from "react-native";
+/* TODO Hay que hacer un componente Nav que tenga el icono de react y un componente Body con una lista y un titulo */
 function Project1 (){
   return (
-    <View >
-      <Nav></Nav>
-      <Body></Body>
-
+    <View>
     </View>
   )
 }
