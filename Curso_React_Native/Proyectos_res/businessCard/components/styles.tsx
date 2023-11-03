@@ -5,6 +5,16 @@ const commonStyles= StyleSheet.create({
     color:'white',
     fontSize:35,
     fontWeight:'bold'
+  },
+  h2:{
+    color:'gainsboro',
+    fontSize:25,
+    fontWeight:'bold',
+    marginBottom:8
+  },
+  p:{
+    color:'gainsboro',
+    fontSize:14
   }
 })
 const cardStyles= StyleSheet.create({
@@ -19,19 +29,20 @@ const headerStyles = StyleSheet.create({
     alignItems:'center',
   },
   image:{
-    width:'100%',
-    height:300,
-    borderRadius:20,
+    width:200,
+    height:200,
+    borderRadius:50,
     marginBottom:20
   },
   jobText:{
     color:'#F3BF99'
   },
   buttonsContainer:{
-    flex:1,
     flexDirection:'row',
     gap:20,
-    marginTop:20
+    marginTop:20,
+    marginBottom:20,
+    alignSelf:'center'
   },
   buttonMail:{
     backgroundColor:'white',
@@ -63,4 +74,35 @@ const headerStyles = StyleSheet.create({
   }
 })
 
-export { commonStyles,cardStyles, headerStyles}
+const infoStyles= StyleSheet.create({
+  container:{
+    paddingLeft:30,
+    paddingRight:30
+  },
+  textContainer:{
+    marginTop:20,
+  }
+})
+
+const footerStyles= StyleSheet.create({
+  container:{
+    marginTop:40,
+    marginBottom:40,
+    borderRadius:10,
+    backgroundColor:'#2b2c37',
+    padding:10,
+    justifyContent:'center',
+    alignItems:'center',
+  },
+  iconContainer:{
+    flexDirection:'row',
+    gap:30,
+    flexWrap:'wrap',
+    justifyContent:'center'
+  },
+
+  icon:{
+    color:'gray',
+  }
+})
+export { commonStyles,cardStyles, headerStyles, infoStyles, footerStyles}
