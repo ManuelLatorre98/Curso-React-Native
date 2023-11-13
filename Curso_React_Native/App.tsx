@@ -3,6 +3,7 @@ import { View } from 'react-native';
 import { ConceptProps } from "./Conceptos/Props/ConceptProps";
 import { ArrayMap } from "./Conceptos/ArrayMap/ArrayMap";
 import { Estrella } from "./Conceptos/Estrella/Estrella";
+import { FlatListEj } from "./Conceptos/FlatList/FlatList";
 
 
 function App(): JSX.Element {
@@ -12,6 +13,7 @@ function App(): JSX.Element {
       {/*<ConceptProps></ConceptProps>*/}
       {/*<ArrayMap></ArrayMap>*/}
       {/*<Estrella></Estrella>*/}
+      <FlatListEj />
     </View>
   );
 }
