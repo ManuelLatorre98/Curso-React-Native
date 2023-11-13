@@ -11,7 +11,7 @@ function App(): JSX.Element {
       {/* TODO Aca van a poner los proyectos como si fueran componentes unicos */}
       {/*<ConceptProps></ConceptProps>*/}
       {/*<ArrayMap></ArrayMap>*/}
-      <Estrella></Estrella>
+      {/*<Estrella></Estrella>*/}
     </View>
   );
 }
