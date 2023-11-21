@@ -15,7 +15,8 @@ function ArrayMap(){
   const coloresArray= colores.map((color)=><Text>{color}</Text>)
   return(
     <View>
-      <Text>{colores}</Text>
+      {/*<Text>{colores}</Text>*/}
+      {coloresArray}
     </View>
   )
 }

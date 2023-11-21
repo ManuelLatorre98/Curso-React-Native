@@ -45,7 +45,6 @@ function FlatListEj(){
       />
     </View>
     )
-
 }
 
 const styles = StyleSheet.create({
