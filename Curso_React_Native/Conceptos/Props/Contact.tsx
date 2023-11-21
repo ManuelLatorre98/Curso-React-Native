@@ -4,6 +4,7 @@ import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { contactStyles } from "./styles";
 
 function Contact(){
+
   return (
     <View style={contactStyles.shadowContainer}>
       <View style={contactStyles.cardContainer}>
