@@ -14,8 +14,8 @@ function App(): JSX.Element {
       {/*<EjemploTsx/>*/}
       {/*<ConceptProps></ConceptProps>*/}
       {/*<ArrayMap></ArrayMap>*/}
-      {/*<Estrella></Estrella>*/}
-      <FlatListEj />
+      <Estrella></Estrella>
+      {/*<FlatListEj />*/}
     </View>
   );
 }
