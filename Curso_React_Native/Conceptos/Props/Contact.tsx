@@ -9,7 +9,7 @@ interface Props{
   email:string
 }
 function Contact(props: Props){
-  const {img}=props
+  const {img,name}=props
   return (
     <View style={contactStyles.shadowContainer}>
       <View style={contactStyles.cardContainer}>

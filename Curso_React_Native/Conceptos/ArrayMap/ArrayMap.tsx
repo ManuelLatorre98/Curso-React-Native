@@ -16,7 +16,8 @@ function ArrayMap(){
   return(
     <View>
       {/*<Text>{colores}</Text>*/}
-      {coloresArray}
+      {coloresComp}
+      {/*{coloresArray}*/}
     </View>
   )
 }
