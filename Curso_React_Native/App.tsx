@@ -4,6 +4,8 @@ import { ConceptProps } from "./Conceptos/Props/ConceptProps";
 import { ArrayMap } from "./Conceptos/ArrayMap/ArrayMap";
 import { Estrella } from "./Conceptos/Estrella/Estrella";
 import { FlatListEj } from "./Conceptos/FlatList/FlatList";
+import { Estados } from "./Conceptos/estados/estados";
+import { Counter } from "./Proyectos_res/counter/counter";
 
 
 function App(): JSX.Element {
@@ -13,7 +15,9 @@ function App(): JSX.Element {
       {/*<ConceptProps></ConceptProps>*/}
       {/*<ArrayMap></ArrayMap>*/}
       {/*<Estrella></Estrella>*/}
-      <FlatListEj />
+      {/*<FlatListEj />*/}
+      {/*<Estados />*/}
+      <Counter />
     </View>
   );
 }
