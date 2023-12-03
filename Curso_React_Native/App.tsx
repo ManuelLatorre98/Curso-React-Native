@@ -22,14 +22,16 @@ function App(): JSX.Element {
       {/*<ArrayMap></ArrayMap>*/}
       {/*<Estrella></Estrella>*/}
       {/*<FlatListEj />*/}
+
+
       {/*<Estados />*/}
-      <Counter />
       {/*<Objetos/>*/}
-      {/*<Login/>*/}
+      <Login/>
       {/*<Effect/>*/}
       {/*<Effect2/>*/}
-      {/*<Estrella></Estrella>*/}
-      {/*<FlatListEj />*/}
+
+
+      {/*<Counter />*/}
     </View>
   );
 }

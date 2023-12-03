@@ -5,7 +5,7 @@ const objetosStyles= StyleSheet.create({
     justifyContent:'center',
     alignItems:'center',
     padding:20,
-    flex:1,
+    flex:1
   },
   card:{
     borderRadius:10,

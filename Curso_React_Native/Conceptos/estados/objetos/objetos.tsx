@@ -14,7 +14,7 @@ function Objetos(){
   })
 
   let iconStyle = {
-    ...objetosStyles,
+    ...objetosStyles.icon,
     color: contact.isFavourite ? 'gold': 'gray'
   }
 

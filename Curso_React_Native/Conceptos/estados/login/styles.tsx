@@ -8,7 +8,8 @@ const loginStyles= StyleSheet.create({
     padding:30
   },
   card:{
-    borderColor:'red',
+    borderWidth:0.5,
+    borderColor:'gray',
     padding:30,
     width:'100%',
   },

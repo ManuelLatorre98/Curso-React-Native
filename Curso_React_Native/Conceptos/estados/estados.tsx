@@ -7,6 +7,9 @@ function Estados(){
   const cosasItems= cosas.map((cosa)=><Text style={estadosStyle.pItem}>{cosa}</Text>)
   function handlePress(){
     console.log("Holi")
+    /*cosas.push("Cosa"+(cosas.length+1))
+    console.log(cosas)
+    console.log(cosasItems)*/
   }
   return(
     <View style={estadosStyle.container}>
