@@ -10,12 +10,14 @@ import { Objetos } from "./Conceptos/estados/objetos/objetos";
 import { Login } from "./Conceptos/estados/login/login";
 import { Effect } from "./Conceptos/effect/effect";
 import { Effect2 } from "./Conceptos/effect/effect2";
+import { EjemploTsx } from "./Conceptos/a";
 
 
 function App(): JSX.Element {
   return (
     <View style={{ flex: 1 }}>
       {/* TODO Aca van a poner los proyectos como si fueran componentes unicos */}
+      {/*<EjemploTsx/>*/}
       {/*<ConceptProps></ConceptProps>*/}
       {/*<ArrayMap></ArrayMap>*/}
       {/*<Estrella></Estrella>*/}
@@ -26,6 +28,8 @@ function App(): JSX.Element {
       {/*<Login/>*/}
       {/*<Effect/>*/}
       {/*<Effect2/>*/}
+      {/*<Estrella></Estrella>*/}
+      {/*<FlatListEj />*/}
     </View>
   );
 }

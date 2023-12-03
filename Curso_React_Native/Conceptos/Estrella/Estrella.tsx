@@ -4,13 +4,18 @@ import { faHeart, faStar } from "@fortawesome/free-solid-svg-icons";
 import { estrellaStyles } from "./styles";
 
 function Estrella(){
-  const showStar = true
+  const showStar = false
   const showHeart = true
+  const handleClick = ()=>{
+    console.log("AAA")
+  }
   return(
-    <TouchableOpacity style={estrellaStyles.container}>
-      <FontAwesomeIcon icon={faStar} style={estrellaStyles.star} size={90}></FontAwesomeIcon>
-      <FontAwesomeIcon icon={faHeart} style={estrellaStyles.heart} size={90}></FontAwesomeIcon>
+    <View style={estrellaStyles.container}>
+    <TouchableOpacity style={{backgroundColor:'white'}} onPress={handleClick}>
+      {showStar && <FontAwesomeIcon icon={faStar} style={estrellaStyles.star} size={90} />}
+      <FontAwesomeIcon icon={faHeart} style={estrellaStyles.heart} size={90} />
     </TouchableOpacity>
+    </View>
   )
 }
 
