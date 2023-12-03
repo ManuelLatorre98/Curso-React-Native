@@ -6,6 +6,10 @@ import { Estrella } from "./Conceptos/Estrella/Estrella";
 import { FlatListEj } from "./Conceptos/FlatList/FlatList";
 import { Estados } from "./Conceptos/estados/estados";
 import { Counter } from "./Proyectos_res/counter/counter";
+import { Objetos } from "./Conceptos/estados/objetos/objetos";
+import { Login } from "./Conceptos/estados/login/login";
+import { Effect } from "./Conceptos/effect/effect";
+import { Effect2 } from "./Conceptos/effect/effect2";
 
 
 function App(): JSX.Element {
@@ -18,6 +22,10 @@ function App(): JSX.Element {
       {/*<FlatListEj />*/}
       {/*<Estados />*/}
       <Counter />
+      {/*<Objetos/>*/}
+      {/*<Login/>*/}
+      {/*<Effect/>*/}
+      {/*<Effect2/>*/}
     </View>
   );
 }
